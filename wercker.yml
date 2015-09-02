@@ -1,4 +1,4 @@
-box: wercker/default
+box: centos
 build:
   steps:
     - shellcheck:

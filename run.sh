@@ -18,7 +18,7 @@ nuget_restore() {
   local retries=3;
   for try in $(seq "$retries"); do
     info "Starting NuGet restore, try: $try"
-    nuget restore $WERCKER_NUGET_RESTORE_OPTIONS && return;
+    nuget restore "$WERCKER_NUGET_RESTORE_OPTIONS" && return;
   done
 
   fail "Failed to successfully execute NuGet restore, retries: $retries"

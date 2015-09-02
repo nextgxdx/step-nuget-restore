@@ -1,9 +1,8 @@
 name: nuget-restore
 version: 0.0.1
-description: Restores NuGet packages.
+description: Executes the `nuget restore` command leveraging the wercker cache.
 keywords:
   - c#
-  - asp.net
   - .net
   - mono
   - nuget

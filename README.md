@@ -1,6 +1,6 @@
 # nuget-restore step
 
-Executes the `nuget restore` command with leveraging the wercker cache mechanism to improve installation time.
+Executes the `nuget restore` command leveraging the wercker cache mechanism to improve installation time.
 
 If `nuget restore` fails, it will be retried three times before failing.
 
