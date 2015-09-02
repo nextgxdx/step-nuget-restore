@@ -1,0 +1,14 @@
+name: nuget-restore
+version: 0.0.1
+description: Restores NuGet packages.
+keywords:
+  - c#
+  - asp.net
+  - .net
+  - mono
+  - nuget
+  - restore
+properties:
+  options:
+    type: string
+    required: false
